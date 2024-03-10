@@ -1,0 +1,5 @@
+Error messageError messageError messageError messageError messageError messageError messageError messageError messageError messageError messageError messageError messageUsername: , Error: Error: Username: , Error: Error: ERROR:  bind message supplies 1 parameters, but prepared statement "" requires 0Username: , Error: Error: ERROR:  unterminated quoted string at or near "'$1"
+LINE 1: SELECT * FROM public.users WHERE username = '$1
+                                                    ^ownername: , Password: $2y$10$qMbyEcBcaoRHNly0CpJc5OP6apE0IkPc7jqLZNrbOfOD/TX.cAkQi, Error: Error: ERROR:  relation "public.owners" does not exist
+LINE 1: INSERT INTO public.owners (ownername, password) VALUES ($1, ...
+                    ^Error: Query execution failedError: Query execution failed
